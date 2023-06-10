@@ -1,23 +1,7 @@
-<script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
-</script>
-
 <template>
- 
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    
+  <div>
+    <h1>Hello World</h1>
   </div>
-
-
-  Hello
 </template>
 
 <style scoped>
