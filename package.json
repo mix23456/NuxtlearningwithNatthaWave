@@ -12,7 +12,7 @@
     "bootstrap": "^5.3.0",
     "bootstrap-vue": "^2.23.1",
     "vue": "^3.3.4",
-    "vue-fixed-header": "^3.2.15"
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
