@@ -1,30 +1,36 @@
 <template>
     <div class="thebox row">
-        <img class="logo" src="../assets/logo/codashop-logo.png">
-        <div class="textlogo col"><i>วิธีที่เร็วที่สุดและง่ายที่สุดในการซื้อเครดิตเกม</i></div>
+        <div class="img-container col">
+            <img class="logo" alt="..." src="../assets/logo/codashop-logo.png" />
+            <i class="textlogo">วิธีที่เร็วที่สุดและง่ายที่สุดในการซื้อเครดิตเกม</i>
+        </div>
     </div>
 </template>
 
 <style>
 .textlogo {
-    font-size: 14px;
+    font-size: 16px;
     color: white;
+    text-align: center;
 }
 
 .logo {
     width: 120px;
-    padding: 8px;
+    margin-right: 8px;
 }
 
 .thebox {
-    background-color: #513f55;
+    background-color: #3c1f42;
     border-color: #cac5e8;
     border-style: solid;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    border-width: 1px;
+    border-width: 2px;
     overflow: hidden;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
 
 }
 
